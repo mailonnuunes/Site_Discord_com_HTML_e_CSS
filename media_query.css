@@ -1,0 +1,169 @@
+@media screen and (min-width:1280px) {
+    header{
+        background-image: url(./img/Header\ Background\ para\ PC.png);
+        width: 100%;
+        background-size: cover;
+        height: 459px;
+        align-items: center;
+    }
+    .alinhamento{
+        
+        width:757px;
+        height: 270px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .alinhamento > h1{
+        margin-top: 0;
+        
+        width: 313px;
+        height: 112px; 
+        font-family: 'Luckiest Guy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 56px;
+        text-align: center; 
+        color: #FFFFFF;
+    }
+    .alinhamento >p{
+        width: 757px;
+        height: 66px;
+        text-align: center;
+    }
+
+    .divBtns{
+        flex-direction: row;
+    }
+    .button1{
+        width: 205px;
+        height: 44px;
+    }
+    .button2{
+        width: 281px;
+        height: 44px;
+    }
+    .boxes{
+        display:unset;
+    }
+    .imgCelular{
+        display: none;
+    }
+    img{
+
+    }
+    section{
+        gap: 16px;
+   
+    }
+    .firstSection{
+        margin: 40px 0 40px 0;
+    }
+    .firstSection > .boxes{
+        margin: 10px 0 0 0;
+    }
+    .boxes > h1{
+        width: 329px;
+        height: 270px;
+        left: 623px;
+        top: 10px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 54px;
+        color: #23272A;
+    }
+    .boxes > p{
+    width: 348px;
+    height: 88px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #23272A;
+
+    }
+    .secoundSection .boxes{
+        width: 351px;
+        height: 212px;
+        margin-top: 118px;
+
+    }
+    .secoundSection .boxes >h1{
+        width: 329px;
+        height: 108px;
+    }
+    .secoundSection > img{
+        margin-top: 27px;
+    }
+    .treeSection .boxes{
+
+        width: 351px;
+        height: 234px;
+        display: flex;
+        gap: 16px;
+        margin-top: 108px;
+
+    }
+    .treeSection > img{
+        margin-top: 28px;
+    }
+    .treeSection .boxes > h1{
+
+        width: 329px;
+        height: 108px;
+    }
+    .lastSection{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        margin:40px 0 45 0;
+    }
+    .lastSection .boxes > h1{
+        width: 608px;
+        height: 80px;
+
+        font-family: 'Luckiest Guy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+
+        color: #23272A;
+
+    }
+    .lastSection .boxes{
+        width: 802px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+    .lastSection .boxes > p{
+        width: 802px;
+        height: 44px;
+
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+
+        color: #23272A;
+    }
+    footer{
+        width: 100%;
+    }
+    .imgPC{
+        display: unset;
+    }
+}

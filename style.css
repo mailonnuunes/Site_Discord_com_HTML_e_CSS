@@ -1,0 +1,142 @@
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    width: 428px;
+    height: 506px;
+    background-image: url(./img/Header\ Background.png);
+}
+.alinhamento{
+    width: 381px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+.alinhamento > h1{
+    margin-top: 70px;
+    width: 278px;
+    height: 64px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+    
+}
+.alinhamento >p{
+    width: 381px;
+    height: 132px;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.divBtns{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.button1{
+    width: 381px;
+    height: 54px;
+    left: 0px;
+    top: 0px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 28px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    color: #23272A;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+}
+.button1:hover,.button2:hover{
+    cursor: pointer;
+}
+.button2{
+
+    width: 381px;
+    height: 52px;
+    left: 0px;
+    top: 70px;
+    border: none;
+    background: #23272A;
+    border-radius: 28px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 80px 0;
+}
+
+.boxes{
+    width: 379px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+.boxes >img{
+    width: 379px;
+    height: 252px;
+}
+.boxes > h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+}
+.boxes > p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #23272A;
+
+}
+.lastSection{
+    margin-bottom: 40px;
+}
+.lastSection .boxes > h1{
+    width: 376px;
+    height: 64px;
+
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+
+    color: #23272A;
+}
+footer{
+    width: 429px;
+    height: 140px;
+    background: #23272A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgPC{
+    display: none;
+}
